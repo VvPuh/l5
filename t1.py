@@ -6,10 +6,10 @@ while True:
         if M.isdigit():
             N = int(N)
             M = int(M)
-            if N >= 100000 and N <= 999999:
-                if M >= 100000 and M <= 999999:
+            if 100000 <= N <= 999999:
+                if 100000 <= M <= 999999:
                     if M>=N:
-                        break;
+                        break
                     else:
                         print("Incorrect max value (correct max>=min)")
                 else:
