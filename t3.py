@@ -18,7 +18,7 @@ def inp():
 print("In this game your task is to leave 1 stone after your turn. Initially", stones, "stones.")
 turn = 0
 player = 0
-#turn = randint(0,2)
+turn = randint(0,2)
 while stones>1:
     if turn%2 == 0:
         print("Your turn")
